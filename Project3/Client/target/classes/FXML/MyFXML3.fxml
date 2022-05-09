@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+            fx:id = "gameBoard" styleClass="border" fx:controller = "MyController">
+    <center>
+        <VBox alignment="CENTER" spacing="20">
+            <Text text="Welcome to the Game Room!"/>
+            <Text text="Select a number 1-5:"/>
+            <HBox spacing="10" alignment="CENTER">
+                <Button fx:id="imageOne" onMouseClicked="#pressOne"/>
+                <Button fx:id="imageTwo" onMouseClicked="#pressTwo"/>
+                <Button fx:id="imageThree" onMouseClicked="#pressThree"/>
+                <Button fx:id="imageFour" onMouseClicked="#pressFour"/>
+                <Button fx:id="imageFive" onMouseClicked="#pressFive"/>
+            </HBox>
+            <Text text="Enter a guess for the total (Must be a value 1-10):"/>
+            <TextField fx:id="total" promptText="Enter total (1-10)"/>
+            <Button fx:id="submit" text="Submit" onAction="#submitBtn"/>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,18 @@
+.border {
+	-fx-background-color: lightblue;
+	-fx-padding: 15px;
+}
+
+.button{
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-background-color: coral;
+}
+
+#title {
+	-fx-font-size: 4em;
+	-fx-font-weight: bold;
+	-fx-fill: blue;
+}
+
+

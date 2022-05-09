@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.VBox?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+			fx:id = "bp" styleClass="border" fx:controller = "MyController">
+	<top>
+		<VBox alignment="CENTER">
+			<Text text="The Ancient Game of Morra"/>
+		</VBox>
+	</top>
+	<center>
+		<VBox alignment="CENTER" spacing="50">
+			<Text text="Waiting For Another Player..."/>
+		</VBox>
+	</center>
+</BorderPane>
+
